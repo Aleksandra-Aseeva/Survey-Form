@@ -1,0 +1,91 @@
+body {
+    background-color: #3cef05;
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+h1,
+p {
+    text-align: center;
+    margin-bottom: 10;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 15;
+    font-size: 19;
+}
+
+form {
+    width: 60vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    background-color: white;
+    border-radius: 0.35rem;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    padding-bottom: 15px;
+    padding-top: 1px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+
+}
+
+fieldset {
+    border: none;
+    padding: 15px 0;
+    border-bottom: 3px solid #3cef05;
+    padding-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin: 5px 0 0 0;
+}
+
+input,
+textarea {
+    background-color: #e5e7e4;
+    border: 1px solid #e5e7e4;
+    color: black;
+}
+
+input {
+    height: 25px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.level {
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+.opinion {
+    margin: 5px;
+    font-size: 17px;
+}
+
+
+
+.submit {
+    height: 30px;
+    margin-top: 15;
+}
+
+textarea {
+    margin-top: 6px;
+    font-size: 14px;
+}

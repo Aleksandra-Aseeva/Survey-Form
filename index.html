@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="first-name">Your Name: <input id="name" type="text" required
+                    placeholder="Name" /></label>
+            <label id="email-label" for="email">Your Email: <input id="email" type="email" required
+                    placeholder="Email" /></label>
+            <label id="number-label" for="number">Your Age: <input id="number" type="number" name="age" min="13"
+                    max="120" placeholder="Age" /></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Account type (required)</legend>
+            <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline"
+                    value="personal-account" checked /> Personal</label>
+            <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline"
+                    value="business-account" /> Business</label>
+            <label for="referrer">Your level:
+                <select class="level" id="dropdown" name="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">junior</option>
+                    <option value="2">middle</option>
+                    <option value="3">senior</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <label for="forum"><input id="forum" type="checkbox" name="personality" class="inline" checked
+                    value="forum" /> Forum</label>
+            <label for="open-source"><input id="open-source" type="checkbox" name="personality" class="inline"
+                    value="open-source" /> Open-source</label>
+            <label for="courses"><input id="courses" type="checkbox" name="personality" class="inline"
+                    value="courses" /> Courses</label>
+            <label for="support"><input id="support" type="checkbox" name="personality" class="inline"
+                    value="support" /> Support</label>
+
+            <label for="opinion" class="opinion">Tell us about your impressions. What else would you like to see on our
+                platform? (News, events, new courses, more open-source,...)
+                <textarea id="opinion" name="opinion" rows="4" cols="30"
+                    placeholder="I like to get feedback..."></textarea>
+            </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" class="submit" />
+    </form>
+</body>
+
+</html>
